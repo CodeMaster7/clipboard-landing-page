@@ -17,9 +17,9 @@ body {
 	font-family: $font__primary;
 	color: $grayBlue;
 
-    @include breakpoint(large) {
-        font-size: 1.125rem;
-    }
+	@include breakpoint(large) {
+		font-size: 1.125rem;
+	}
 }
 
 h1,
@@ -31,11 +31,20 @@ h3 {
 }
 
 h1 {
-	font-size: 1.5rem;
+	font-size: 1.5rem; // 24px
 	margin-bottom: 25px;
 
 	@include breakpoint(large) {
-		font-size: 2.5rem;
+		font-size: 2.75rem; // 44px
+	}
+}
+
+h2 {
+    font-size: 1.75rem; // 28px
+    margin-bottom: 1rem;
+
+    @include breakpoint(large) {
+        font-size: 2.125rem; // 34px
 	}
 }
 
@@ -50,9 +59,9 @@ button,
 	cursor: pointer;
 	transition: all 150ms ease-in-out;
 
-    @include breakpoint-less(small) {
-        width: 100%;
-    }
+	@include breakpoint-less(small) {
+		width: 100%;
+	}
 
 	&.cyan {
 		background-color: $cyan;
@@ -97,4 +106,31 @@ button,
 	.content {
 		max-width: 700px;
 	}
+}
+
+// P tags
+p {
+    margin-top: 0px;
+}
+
+p.large { // 20px
+    font-size: 1.25rem;
+}
+
+p.medium { // 18px
+    font-size: 1.125rem;
+    line-height: 1.75;
+}
+
+p.small { // 16px
+ font-size: 1rem;
+}
+
+.margin-bottom {
+	margin-bottom: 50px;
+	line-height: 1.6;
+}
+
+.lg-margin-bottom {
+    margin-bottom: 80px;
 }
