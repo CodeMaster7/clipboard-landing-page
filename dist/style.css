@@ -148,6 +148,10 @@ p.small {
   margin-bottom: 80px;
 }
 
+.xlg-margin-bottom {
+  margin-bottom: 80px;
+}
+
 .hero {
   padding-top: 120px;
   background-image: url("/images/bg-header-mobile.png");
