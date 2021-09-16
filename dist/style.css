@@ -100,7 +100,7 @@ button.light-blue:hover,
 .wrapper {
   padding-left: 32px;
   padding-right: 32px;
-  padding-bottom: 160px;
+  padding-bottom: 95px;
 }
 
 @media screen and (min-width: 1000px) {
@@ -118,8 +118,17 @@ button.light-blue:hover,
   text-align: center;
 }
 
-.centered .content {
+.content {
   max-width: 700px;
+}
+
+.content img {
+  width: 100%;
+  max-width: 900px;
+}
+
+.content img.medium {
+  max-width: 800px;
 }
 
 p {
@@ -131,8 +140,15 @@ p.large {
 }
 
 p.medium {
-  font-size: 1.125rem;
-  line-height: 1.75;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+@media screen and (min-width: 1000px) {
+  p.medium {
+    font-size: 1.125rem;
+    line-height: 1.75;
+  }
 }
 
 p.small {
@@ -149,7 +165,13 @@ p.small {
 }
 
 .xlg-margin-bottom {
-  margin-bottom: 80px;
+  margin-bottom: 35px;
+}
+
+@media screen and (min-width: 1000px) {
+  .xlg-margin-bottom {
+    margin-bottom: 80px;
+  }
 }
 
 .hero {

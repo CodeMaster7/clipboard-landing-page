@@ -88,7 +88,7 @@ button,
 .wrapper {
 	padding-left: 32px;
 	padding-right: 32px;
-	padding-bottom: 160px;
+	padding-bottom: 95px;
 
 	@include breakpoint(large) {
 		padding-left: 0px;
@@ -103,9 +103,20 @@ button,
 	flex-direction: column;
 	text-align: center;
 
-	.content {
-		max-width: 700px;
-	}
+}
+
+// Content
+.content {
+    max-width: 700px;
+
+    img {
+        width: 100%;
+        max-width: 900px;
+
+        &.medium {
+            max-width: 800px;
+        }
+    }
 }
 
 // P tags
@@ -117,9 +128,14 @@ p.large { // 20px
     font-size: 1.25rem;
 }
 
-p.medium { // 18px
-    font-size: 1.125rem;
-    line-height: 1.75;
+p.medium { // 16px
+    font-size: 1rem;
+    line-height: 1.6;
+
+    @include breakpoint(large) {
+        font-size: 1.125rem;
+        line-height: 1.75;
+    }
 }
 
 p.small { // 16px
@@ -136,5 +152,10 @@ p.small { // 16px
 }
 
 .xlg-margin-bottom {
-    margin-bottom: 80px;
+    margin-bottom: 35px;
+
+    @include breakpoint(large) {
+        margin-bottom: 80px;
+
+    }
 }
