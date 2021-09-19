@@ -1,0 +1,18 @@
+.supercharge {
+	max-width: 1110px;
+    margin: auto;
+
+	&__columns {
+		@include breakpoint(large) {
+			// display: flex;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+		}
+	}
+
+	&__column {
+		@include breakpoint(large) {
+			// flex: 1;
+		}
+	}
+}
