@@ -148,6 +148,8 @@ p.medium { // 16px
 
 p.small { // 16px
  font-size: 1rem;
+ line-height: 1.75;
+ max-width: 350px;
 }
 
 .margin-bottom {
@@ -165,5 +167,14 @@ p.small { // 16px
     @include breakpoint(large) {
         margin-bottom: 80px;
 
+    }
+}
+
+.max {
+
+    @include breakpoint-less(large) {
+        max-width: 375px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
