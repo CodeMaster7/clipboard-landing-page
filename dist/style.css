@@ -64,6 +64,29 @@ h2 {
   }
 }
 
+.cta-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 700px) {
+  .cta-container {
+    display: block;
+  }
+}
+
+.cta-container button:first-child {
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 700px) {
+  .cta-container button:first-child {
+    margin-bottom: 0px;
+    margin-right: 16px;
+  }
+}
+
 button,
 .button {
   position: relative;
@@ -211,29 +234,6 @@ p.small {
 @media screen and (min-width: 1000px) {
   .hero h1 br {
     display: none;
-  }
-}
-
-.hero__cta {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-@media screen and (min-width: 700px) {
-  .hero__cta {
-    display: block;
-  }
-}
-
-.hero__cta button:first-child {
-  margin-bottom: 20px;
-}
-
-@media screen and (min-width: 700px) {
-  .hero__cta button:first-child {
-    margin-bottom: 0px;
-    margin-right: 16px;
   }
 }
 
