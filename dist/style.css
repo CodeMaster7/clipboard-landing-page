@@ -329,3 +329,38 @@ p.small {
     margin-bottom: 36px;
   }
 }
+
+.logos {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.logos__container {
+  text-align: center;
+}
+
+@media screen and (min-width: 700px) {
+  .logos__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+  }
+}
+
+.logos__container img {
+  display: block;
+  margin: 0 auto 70px auto;
+}
+
+@media screen and (min-width: 700px) {
+  .logos__container img {
+    margin: 0 20px 40px 20px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .logos__container img {
+    margin: 0;
+  }
+}
