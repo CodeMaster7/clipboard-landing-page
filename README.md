@@ -1,7 +1,7 @@
 # Frontend Mentor - Clipboard landing page solution
 ### Screenshot
 
-[![fylo.jpg](https://i.postimg.cc/1Rq3nF85/fylo.jpg)](https://postimg.cc/YjtHThNJ)
+[![fylo.jpg](https://i.postimg.cc/1Rq3nF85/fylo.jpg)](https://hungry-hugle-940d05.netlify.app/)
 # (Done)
 
 This is a solution to the [Clipboard landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
