@@ -1,7 +1,7 @@
 # Frontend Mentor - Clipboard landing page solution
 
 ### Screenshot
-- Solution URL: [Live Site here](https://hungry-hugle-940d05.netlify.app)
+- Site URL: [Live Site here](https://hungry-hugle-940d05.netlify.app)
 
 [![fylo.jpg](https://i.postimg.cc/1Rq3nF85/fylo.jpg)](https://hungry-hugle-940d05.netlify.app/)
 
