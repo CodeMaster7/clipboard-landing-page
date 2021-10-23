@@ -1,5 +1,8 @@
 # Frontend Mentor - Clipboard landing page solution
-# (In progress)
+### Screenshot
+
+[![fylo.jpg](https://i.postimg.cc/1Rq3nF85/fylo.jpg)](https://postimg.cc/YjtHThNJ)
+# (Done)
 
 This is a solution to the [Clipboard landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
@@ -7,7 +10,6 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -25,10 +27,6 @@ Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
-
-### Screenshot
-
-[![fylo.jpg](https://i.postimg.cc/1Rq3nF85/fylo.jpg)](https://postimg.cc/YjtHThNJ)
 
 ### Links
 
